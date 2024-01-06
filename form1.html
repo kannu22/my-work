@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <title>TO YOUR DOOR | Personal Details</title>
+    <link rel="stylesheet" href="tut1.css">
+</head> 
+<body>
+    
+
+    <form method="post" id="form_login" name="login">
+        <h1 class="main_heading"> Personal Details</h1>
+        <p>
+            <label>First Name:<input type="text" name="FirstName" required/></label>
+        </p>
+        <p>
+            <label>Last Name:<input type="text" name="LastName" required /></label>
+        </p>
+        <p>
+            <label>Age:<input type="tel" name="Age" required/></label>
+        </p>
+        <p>
+            Gender :
+            </br>
+            <label><input type="radio" name="gender"value="male" required/> 
+                     Male    
+            </label>
+            <label><input type="radio" name="gender" value="female" required/> 
+                    Female    
+             </label>
+        </p>
+        <p>
+            <label>Contact No:<input type ="tel" name="ContactNo" required/></label>
+        </p>
+        <p>
+            <label>Email:<input type ="email" name ="email" required/></label>
+        </p>
+        <p>
+            <label>Address:<textarea name="address" cols="30"
+                rows="3" required></textarea></label>
+        </p>
+        <p>
+            <div class="vertical_center">
+                
+            <button type="submit" onclick="window.open('tut2.html');" target="_blank">Proceed</button>
+                
+            </div>
+        </p>
+    </form>
+    <script src="google_sheet.js"></script>
+</body> 
+</html>

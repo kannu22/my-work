@@ -1,0 +1,64 @@
+*{
+    box-sizing:content-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    color: white;
+    background-color:rgb(32, 75, 51);
+    background-image:url(https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?w=1380&t=st=1700934630~exp=1700935230~hmac=39e1a5f3fdb60f24d1fa8819ee6cd26206475b8a866ae6b775c7805fdd26e352);
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    
+}
+input[type="radio"],
+input[type="tel"],
+input[type="text"],
+input[type="email"],
+input[type="checkbox"],
+input[type="time"],
+input[type="date"],
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 15px;
+    border-radius: 5px;
+    margin: 7px;
+}
+ 
+.main_heading{
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+button[type="submit"]{
+    background-color:rgb(23, 136, 78);
+    color:white;
+    padding: 15px 20px;
+    border: none;
+    
+}
+#form_login{
+    left: 50%;
+    top: 50%;
+    margin-left: -15%;
+    position: absolute;
+    margin-top: -25%;
+}
+.vertical_center{
+    margin-left: 150px;
+    border-radius: 100px;
+    
+}
+button:hover{
+    background-color: brown;
+    text-decoration: underline;
+    cursor: pointer;
+}
+button{
+    margin-right: 200px;
+}
